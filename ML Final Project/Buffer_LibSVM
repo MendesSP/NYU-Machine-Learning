@@ -1,0 +1,119 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 4.0 -R 0.0 -N 0.5 -M 40.0 -C 4.0 -E 0.001 -P 0.1 -model /Users/andremendes -seed 1
+Relation:     ML_FinalProject-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    50000
+Attributes:   78
+              att1
+              att2
+              att3
+              att4
+              att5
+              att6
+              att7
+              att8
+              att9
+              att10
+              att11
+              att12
+              att13
+              att14
+              att15
+              att16
+              att17
+              att18
+              att19
+              att20
+              att21
+              att22
+              att23
+              att24
+              att25
+              att26
+              att27
+              att28
+              att29
+              att30
+              att31
+              att32
+              att33
+              att34
+              att35
+              att36
+              att37
+              att38
+              att39
+              att40
+              att41
+              att42
+              att43
+              att44
+              att45
+              att46
+              att47
+              att48
+              att49
+              att50
+              att51
+              att52
+              att53
+              att54
+              att55
+              att56
+              att57
+              att58
+              att59
+              att60
+              att61
+              att62
+              att63
+              att64
+              att65
+              att66
+              att67
+              att68
+              att69
+              att70
+              att71
+              att72
+              att73
+              att74
+              att75
+              att76
+              att77
+              label
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 219.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       48165               96.33   %
+Incorrectly Classified Instances      1835                3.67   %
+Kappa statistic                          0.8814
+Mean absolute error                      0.0367
+Root mean squared error                  0.1916
+Relative absolute error                 11.5766 %
+Root relative squared error             48.1183 %
+Coverage of cases (0.95 level)          96.33   %
+Mean rel. region size (0.95 level)      50      %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.985    0.125    0.970      0.985    0.977      0.882    0.930     0.967     0
+                 0.875    0.015    0.935      0.875    0.904      0.882    0.930     0.843     1
+Weighted Avg.    0.963    0.103    0.963      0.963    0.963      0.882    0.930     0.943     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 39524   600 |     a = 0
+  1235  8641 |     b = 1
+

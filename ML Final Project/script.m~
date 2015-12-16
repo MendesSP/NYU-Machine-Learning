@@ -1,0 +1,20 @@
+addpath('/Users/andremendes/OneDrive/LibSVM');
+
+load('cs6923Project.mat');
+
+seed=1;
+rng(seed);
+
+dataset = [train train_label];
+dataset = dataset(randperm(size(dataset,1)),:);
+train_set = dataset(1:30000,:);
+train_cv = dataset(30001:40000,:);
+test_set = dataset(40000:50000,:);
+
+X_train = train_set(:,1:77);
+y_train = train_set(:,78);
+
+X_train_sparse = sparse(X_
+
+
+
